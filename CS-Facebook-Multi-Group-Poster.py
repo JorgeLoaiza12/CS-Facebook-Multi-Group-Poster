@@ -21,7 +21,7 @@ def main():
 	password.send_keys(u_pass)
 	sub.click()
 	time.sleep(5)
-	groups = ["https://mbasic.facebook.com/groups/848709015143177?refid=27","https://mbasic.facebook.com/groups/197057617034917?refid=27","https://mbasic.facebook.com/groups/922122447864810?refid=27","https://mbasic.facebook.com/groups/425072864252439?refid=27","https://mbasic.facebook.com/groups/141391402584840?refid=27","https://mbasic.facebook.com/groups/628556940545528?refid=27","https://mbasic.facebook.com/groups/1499611193585045?refid=27","https://mbasic.facebook.com/groups/1604245399825835?refid=27","https://mbasic.facebook.com/groups/769790473038426?refid=27","https://mbasic.facebook.com/groups/190003027727763?refid=27","https://mbasic.facebook.com/groups/251629428263817?refid=27","https://mbasic.facebook.com/groups/304437439602456?refid=27","https://mbasic.facebook.com/groups/166467676886727?refid=27","https://mbasic.facebook.com/groups/14194475589?refid=27","https://mbasic.facebook.com/groups/121575854607473?refid=27","https://mbasic.facebook.com/groups/203631149766047?refid=27"]
+	groups = ["https://mbasic.facebook.com/groups/samplegroup1","https://mbasic.facebook.com/groups/samplegroup2?refid=27"]
 	for grp in groups:
 		driver.get(grp)
 		time.sleep(2)
